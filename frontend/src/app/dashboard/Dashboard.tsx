@@ -19,6 +19,7 @@ const SHORTCUTS: Shortcut[] = [
   {
     title: 'Write a review',
     body: 'Sign an experience and publish it to the network.',
+    to: ROUTES.write,
   },
   {
     title: 'Explore',

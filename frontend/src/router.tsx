@@ -16,6 +16,7 @@ import { VerifyEmail } from '@/app/auth/verifyEmail/VerifyEmail'
 import { AppLayout } from '@/app/layout/AppLayout'
 import { GuestOnly } from '@/app/layout/GuestOnly'
 import { RequireAuth } from '@/app/layout/RequireAuth'
+import { Write } from '@/app/write/Write'
 import { Landing } from '@/site/landing/Landing'
 import { NotFound } from '@/site/NotFound'
 import { SiteLayout } from '@/site/layout/SiteLayout'
@@ -60,6 +61,7 @@ export const router = createBrowserRouter([
         children: [
           { index: true, element: <Dashboard /> },
           { path: 'account', element: <Account /> },
+          { path: 'write', element: <Write /> },
         ],
       },
     ],

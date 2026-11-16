@@ -11,7 +11,7 @@ export const ROUTES = {
   home: '/',
   dashboard: APP,
   explore: PENDING,
-  write: PENDING,
+  write: `${APP}/write`,
   login: `${APP}/login`,
   register: `${APP}/register`,
   verify: `${APP}/verify`,
